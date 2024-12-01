@@ -29,10 +29,12 @@
     <header>
       <!-- place navbar here -->
       <!-- Navar Start -->
-      <nav class="shadow-sm py-2">
+      <nav class="shadow-sm py-2 position-fixed start-0 top-0 w-100 z-3">
         <div class="container navbar navbar-expand-lg">
           <div class="container-fluid">
-            <a class="navbar-brand fs-4 fw-medium text-white" href="/">Bootslander</a>
+            <a class="navbar-brand fs-4 fw-bold text-white" href="/"
+              >Bootslander</a
+            >
             <button
               class="navbar-toggler"
               type="button"
@@ -50,7 +52,10 @@
             >
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active px-3 text-white" aria-current="page" href="/"
+                  <a
+                    class="nav-link active px-3 text-white"
+                    aria-current="page"
+                    href="/"
                     >Home</a
                   >
                 </li>
@@ -58,7 +63,9 @@
                   <a class="nav-link px-3 text-white" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3 text-white" href="#features">Features</a>
+                  <a class="nav-link px-3 text-white" href="#features"
+                    >Features</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link px-3 text-white">Gallery</a>
@@ -101,7 +108,7 @@
       <!-- Navbar End -->
 
       <!-- Hero Section Start -->
-      <section class="hero-section position-relative">
+      <section class="hero-section">
         <div class="card mb-3 container border-0 hero-section__content py-5">
           <div class="row gy-5 g-sm-0 g-md-5">
             <div class="col-lg-7 flex align-content-center">
@@ -275,7 +282,10 @@
       <!-- About Section End -->
 
       <!-- Features Section Start -->
-      <section class="features-section g-4 row-cols-1 row row-cols-md-3 row-cols-lg-4" id="features">
+      <section
+        class="features-section gx-2 gy-4 g-md-4 row-cols-1 row row-cols-md-3 row-cols-lg-4"
+        id="features"
+      >
         <div class="col">
           <div
             class="features-section__card d-flex align-items-center gap-3 border p-4"
@@ -307,18 +317,16 @@
           <div
             class="features-section__card d-flex align-items-center gap-3 border p-4"
           >
-          <i class="fa-solid fa-gear fs-4" style="color: #e361ff;"></i>
-            <h6 class="mb-0">
-              Magni Dolores</h6>
+            <i class="fa-solid fa-gear fs-4" style="color: #e361ff"></i>
+            <h6 class="mb-0">Magni Dolores</h6>
           </div>
         </div>
         <div class="col">
           <div
             class="features-section__card d-flex align-items-center gap-3 border p-4"
           >
-          <i class="fa-solid fa-gear fs-4" style="color: #e361ff;"></i>
-            <h6 class="mb-0">
-              Magni Dolores</h6>
+            <i class="fa-solid fa-gear fs-4" style="color: #e361ff"></i>
+            <h6 class="mb-0">Magni Dolores</h6>
           </div>
         </div>
       </section>
@@ -326,6 +334,172 @@
     </main>
     <footer>
       <!-- place footer here -->
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+      <div>
+        <!-- Footer -->
+        <footer class="footer-section text-center text-white">
+          <!-- Grid container -->
+          <div class="container footer-section__main-content">
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row g-0">
+                <!--Grid column-->
+                <div
+                  class="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-start px-3"
+                >
+                  <h3 class="text-white">Bootslander</h3>
+                  <div style="color: lightgray">
+                    <p class="text-start mb-1">A108 Adam Street</p>
+                    <p>New York, NY 535022</p>
+                  </div>
+                  <div>
+                    <p class="mb-1">
+                      Phone:
+                      <span style="color: lightgray">+1 5589 55488 55</span>
+                    </p>
+                    <p>
+                      Email:
+                      <span style="color: lightgray">info@example.com</span>
+                    </p>
+                  </div>
+                  <section class="mb-4">
+                    <!-- Facebook -->
+                    <a
+                      class="btn btn-outline-light btn-floating m-1"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+
+                    <!-- Twitter -->
+                    <a
+                      class="btn btn-outline-light btn-floating m-1"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+
+                    <!-- Google -->
+                    <a
+                      class="btn btn-outline-light btn-floating m-1"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-google"></i
+                    ></a>
+
+                    <!-- Instagram -->
+                    <a
+                      class="btn btn-outline-light btn-floating m-1"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </section>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div
+                  class="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-start px-3"
+                >
+                  <h5 class="text-white">Usefull Links</h5>
+
+                  <ul class="list-unstyled mb-0 d-flex flex-column gap-2">
+                    <li class="text-start">
+                      <a href="#!" class="text-white">Home</a>
+                    </li>
+                    <li class="text-start">
+                      <a href="#!" class="text-white">About Us</a>
+                    </li>
+                    <li class="text-start">
+                      <a href="#!" class="text-white">Services</a>
+                    </li>
+                    <li class="text-start">
+                      <a href="#!" class="text-white">Terms of Service</a>
+                    </li>
+                    <li class="text-start">
+                      <a href="#!" class="text-white">Privacy policy</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div
+                  class="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-start px-3"
+                >
+                  <h5 class="text-white">Our Services</h5>
+
+                  <ul class="list-unstyled mb-0 d-flex flex-column gap-2">
+                    <li class="text-start">
+                      <a href="#!" class="text-white">Web Design</a>
+                    </li>
+                    <li class="text-start">
+                      <a href="#!" class="text-white">Web Development</a>
+                    </li>
+                    <li class="text-start">
+                      <a href="#!" class="text-white">Product Management</a>
+                    </li>
+                    <li class="text-start">
+                      <a href="#!" class="text-white">Marketing</a>
+                    </li>
+                    <li class="text-start">
+                      <a href="#!" class="text-white">Graphic Design</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div
+                  class="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-start px-3"
+                >
+                  <h5 class="text-white">Our Newsletter</h5>
+                  <p class="text-start">
+                    <small
+                      >Subscribe to our newsletter and receive the latest news
+                      about our products and services!</small
+                    >
+                  </p>
+                  <div class="form-outline form-white mb-4 d-flex">
+                    <input
+                      type="email"
+                      id="form5Example2"
+                      class="form-control rounded-0 rounded-start-2 bg-transparent text-white footer-section__email-field"
+                    />
+                    <button
+                      class="btn footer-section__subscribe-btn rounded-0 rounded-end-2 py-2"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+          >
+            © Copyright Bootslander All Rights Reserved
+            <a
+              style="color: #1acc8d; text-decoration: none"
+              href="https://mdbootstrap.com/"
+              >MDBootstrap.com</a
+            >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </div>
+      <!-- End of .container -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script

@@ -5,6 +5,7 @@
     --heading-color: #040677;
     --border-green: #1acc8d;
     --bg-green: #1acc8d;
+    --border-green: #1acc8d;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,6 +21,7 @@ nav {
 Hero Section 
 -----------------------------------------------------*/
 .hero-section {
+    margin-top: 70px;
     width: 100%;
     position: relative;
     background-image: url(../images/hero-bg.jpg);
@@ -110,8 +112,32 @@ Feactures Section
 -----------------------------------------------------*/
 .features-section {
     margin: 100px 0px;
+    
 }
 
 .features-section__card:hover {
     border: 1px solid var(--border-green) !important;
 }
+
+.footer-section {
+    background: rgba(2, 5, 161, 0.91);
+}
+
+.footer-section__email-field {
+    border: 1px solid var(--border-green);
+}
+
+.footer-section__subscribe-btn {
+    background-color: var(--btn-bg);
+    color: white;
+}
+
+.list-unstyled li a{
+    text-decoration: none;
+    color: lightgray !important;
+}
+
+.footer-section__main-content {
+    padding: 50px 0px 50px 0px;
+}
+
