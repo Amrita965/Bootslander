@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Bootslander</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -16,15 +16,23 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
     <header>
       <!-- place navbar here -->
+      <!-- Navar Start -->
       <nav class="shadow-sm py-2">
         <div class="container navbar navbar-expand-lg">
           <div class="container-fluid">
-            <a class="navbar-brand fs-4 fw-medium" href="#">Bootslander</a>
+            <a class="navbar-brand fs-4 fw-medium text-white" href="/">Bootslander</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -42,28 +50,28 @@
             >
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active px-3" aria-current="page" href="#"
+                  <a class="nav-link active px-3 text-white" aria-current="page" href="/"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3" href="#">About</a>
+                  <a class="nav-link px-3 text-white" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3">Features</a>
+                  <a class="nav-link px-3 text-white" href="#features">Features</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3">Gallery</a>
+                  <a class="nav-link px-3 text-white">Gallery</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3">Team</a>
+                  <a class="nav-link px-3 text-white">Team</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3">Pricing</a>
+                  <a class="nav-link px-3 text-white">Pricing</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle"
+                    class="nav-link dropdown-toggle px-3 text-white"
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -83,15 +91,239 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3">Contact</a>
+                  <a class="nav-link px-3 text-white">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Section Start -->
+      <section class="hero-section position-relative">
+        <div class="card mb-3 container border-0 hero-section__content py-5">
+          <div class="row gy-5 g-sm-0 g-md-5">
+            <div class="col-lg-7 flex align-content-center">
+              <div>
+                <div class="card-body p-0">
+                  <h1 class="hero-section__title card-title lh-base">
+                    Build Your Landing Page <br class="d-none d-xl-inline" />
+                    With Bootslander
+                  </h1>
+                  <p class="card-text fs-5 hero-section__description">
+                    We are team of talented designers making websites with
+                    Bootstrap
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-success rounded-pill fs-5 py-2 px-4 get-started-btn"
+                  >
+                    Get Started
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <img
+                src="./assets/images/hero-img.png"
+                class="w-100 rounded-start hero-section__animated"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section End -->
     </header>
-    <main></main>
+    <main class="container">
+      <!-- About Section Start -->
+      <section class="card border-0 about-section" id="about">
+        <div class="row gy-5 g-md-5">
+          <div class="col-xl-5 d-flex align-items-center">
+            <div class="d-flex flex-column align-items-start gap-3">
+              <div class="about-section__label py-2 px-3 rounded-2">
+                About Us
+              </div>
+              <h2>Ducimus rerum libero reprehenderit cumque</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+                amet perferendis ut quisquam quo minima officia nam nesciunt
+                dicta corporis, iste cupiditate aspernatur temporibus deserunt
+                tempore voluptatibus illo. Inventore, iure.
+              </p>
+              <button class="btn about-section__btn fs-5 px-3 py-2 text-nowrap">
+                Read More
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-xl-7">
+            <div class="card-body p-0 row g-4 row-cols-md-2">
+              <div>
+                <div class="card border-0 shadow-lg p-3">
+                  <div class="card-body">
+                    <div class="icon-box p-4 rounded-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
+                        />
+                      </svg>
+                    </div>
+                    <h3 class="card-title my-3">Eius provident</h3>
+                    <p class="card-text">
+                      Magni repellendus vel ullam hic officia accusantium ipsa
+                      dolor omnis dolor voluptatem
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card border-0 shadow-lg p-3">
+                  <div class="card-body">
+                    <div class="icon-box p-4 rounded-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75"
+                        />
+                      </svg>
+                    </div>
+                    <h3 class="card-title my-3">Rerum aperiam</h3>
+                    <p class="card-text">
+                      Autem saepe animi et aut aspernatur culpa facere. Rerum
+                      saepe rerum voluptates quia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card border-0 shadow-lg p-3">
+                  <div class="card-body">
+                    <div class="icon-box p-4 rounded-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z"
+                        />
+                      </svg>
+                    </div>
+                    <h3 class="card-title my-3">Veniam omnis</h3>
+                    <p class="card-text">
+                      Omnis perferendis molestias culpa sed. Recusandae quas
+                      possimus. Quod consequatur corrupti
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card border-0 shadow-lg p-3">
+                  <div class="card-body">
+                    <div class="icon-box p-4 rounded-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z"
+                        />
+                      </svg>
+                    </div>
+                    <h3 class="card-title my-3">Delares sapiente</h3>
+                    <p class="card-text">
+                      Sint et dolor voluptas minus possimus nostrum. Reiciendis
+                      commodi eligendi omnis quideme lorenda
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Features Section Start -->
+      <section class="features-section g-4 row-cols-1 row row-cols-md-3 row-cols-lg-4" id="features">
+        <div class="col">
+          <div
+            class="features-section__card d-flex align-items-center gap-3 border p-4"
+          >
+            <i class="fa-solid fa-eye fs-4" style="color: #ffbb2c"></i>
+            <h6 class="mb-0">Lorem Ipsum.</h6>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="features-section__card d-flex align-items-center gap-3 border p-4"
+          >
+            <i class="fa-solid fa-infinity fs-4" style="color: #5578ff"></i>
+            <h6 class="mb-0">Dolor Sitema</h6>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="features-section__card d-flex align-items-center gap-3 border p-4"
+          >
+            <i
+              class="fa-solid fa-graduation-cap fs-4"
+              style="color: #e80368"
+            ></i>
+            <h6 class="mb-0">Sed perspiciatis</h6>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="features-section__card d-flex align-items-center gap-3 border p-4"
+          >
+          <i class="fa-solid fa-gear fs-4" style="color: #e361ff;"></i>
+            <h6 class="mb-0">
+              Magni Dolores</h6>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="features-section__card d-flex align-items-center gap-3 border p-4"
+          >
+          <i class="fa-solid fa-gear fs-4" style="color: #e361ff;"></i>
+            <h6 class="mb-0">
+              Magni Dolores</h6>
+          </div>
+        </div>
+      </section>
+      <!-- Features Section End -->
+    </main>
     <footer>
       <!-- place footer here -->
     </footer>
@@ -105,6 +337,10 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/0a79427483.js"
       crossorigin="anonymous"
     ></script>
   </body>
