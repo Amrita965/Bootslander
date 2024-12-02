@@ -7,7 +7,7 @@
   --bg-green: #1acc8d;
   --border-green: #1acc8d;
   --hover-btn-bg: #35eeae;
-  --padding-top: 100px;
+  --padding-top: 120px;
 }
 
 h1,
@@ -19,6 +19,9 @@ h6 {
   color: var(--heading-color) !important;
 }
 
+/*--------------------------------------------------
+Header Section 
+----------------------------------------------------*/
 nav {
   background: rgba(2, 5, 161);
 }
@@ -95,6 +98,24 @@ Feactures Section
   border: 1px solid var(--border-green) !important;
 }
 
+/*---------------------------------------------------- 
+Team Performance 
+------------------------------------------------------*/
+
+.team-performance-section {
+  background-color: #f4f5fe !important;
+  margin: 120px 0px;
+}
+
+.team-performance-section i {
+  height: 60px;
+  width: 60px;
+  margin: 0px auto;
+  margin-top: -45px;
+  margin-bottom: 20px;
+  color: var(--text-green);
+}
+
 /* --------------------------------------------------
 About Section 
 -----------------------------------------------------*/
@@ -148,12 +169,15 @@ Team Section
   color: var(--text-green);
 }
 
-
 /*---------------------------------------------------
  Pricing Section 
 ----------------------------------------------------*/
 .pricing-section {
   padding-top: var(--padding-top);
+}
+
+.pricing-section__card {
+  border: 1px solid var(--border-green) !important;
 }
 
 .pricing-section__button {
@@ -164,13 +188,12 @@ Team Section
 .pricing-section__button--active {
   border: none;
   background-color: var(--bg-green);
-
 }
 
-.pricing-section__button--active:hover, .pricing-section__button:hover {
+.pricing-section__button--active:hover,
+.pricing-section__button:hover {
   background-color: var(--hover-btn-bg);
 }
-
 
 .check-icon {
   color: var(--text-green);
@@ -179,6 +202,15 @@ Team Section
 .x-mark-icon {
   color: red;
 }
+
+/*---------------------------------------------------- 
+Gallery Section 
+------------------------------------------------------*/
+
+.gallery-section {
+  padding-top: var(--padding-top);
+}
+
 /*---------------------------------------------------- 
 Question Section 
 ------------------------------------------------------*/
@@ -263,6 +295,21 @@ Footer Section
 
 .footer-section__main-content {
   padding: 50px 0px 50px 0px;
+}
+
+button.chat-button {
+  height: 70px;
+  width: 70px;
+  font-size: 30px;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  background-color: #1317a5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media screen and (max-width: 575px) {
