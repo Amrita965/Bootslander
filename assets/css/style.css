@@ -23,7 +23,8 @@ h6 {
 Header Section 
 ----------------------------------------------------*/
 nav {
-  background: rgba(2, 5, 161);
+  background: rgb(2, 5, 161);
+  z-index: 500;
 }
 
 /* --------------------------------------------------
@@ -116,6 +117,7 @@ Team Performance
   color: var(--text-green);
 }
 
+
 /* --------------------------------------------------
 About Section 
 -----------------------------------------------------*/
@@ -147,6 +149,17 @@ About Section
 .icon-box:hover {
   background-color: var(--bg-green);
   color: white;
+}
+
+/*------------------------------------------------- 
+Testimonials Section
+--------------------------------------------------*/
+.testimonials-section {
+  background-image: url('../images/cta-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
 }
 
 /*--------------------------------------------------
@@ -308,6 +321,7 @@ button.chat-button {
   bottom: 50px;
   right: 50px;
   cursor: pointer;
+  z-index: 1000;
   background-color: #1317a5;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
